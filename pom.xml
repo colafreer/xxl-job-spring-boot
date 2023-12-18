@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.github.colafreer</groupId>
+    <artifactId>xxl-job-spring-boot</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <name>xxl-job-spring-boot</name>
+    <description>xxl-job spring boot starter</description>
+    <modules>
+        <module>xxl-job-spring-boot-starter</module>
+    </modules>
+    <properties>
+        <java.version>17</java.version>
+        <xxl-job.version>2.3.0</xxl-job.version>
+        <feign.version>12.4</feign.version>
+        <spring-boot.version>2.7.9</spring-boot.version>
+    </properties>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.7.15</version>
+    </parent>
+    <developers>
+        <developer>
+            <name>renz7</name>
+            <email>renz_7@outlook.com</email>
+        </developer>
+    </developers>
+</project>

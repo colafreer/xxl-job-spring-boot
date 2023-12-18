@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.github.colafreer.xxl.job.spring.config.XxlJobAdminTemplateAutoConfiguration,\
+  com.github.colafreer.xxl.job.spring.config.XxlJobExecutorAutoConfiguration
